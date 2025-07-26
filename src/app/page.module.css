@@ -78,3 +78,13 @@
   font-size: 1rem;
   color: #333;
 }
+
+.educationItem {
+  margin-bottom: 1rem;
+}
+
+.educationItem strong {
+  font-size: 1.05rem;
+  display: block;
+  margin-bottom: 0.3rem;
+}

@@ -118,6 +118,22 @@ export default function Home() {
           </section>
 
           <section className={styles.section}>
+            <h2>Education</h2>
+            <div className={styles.educationItem}>
+              <strong>University of York</strong>
+              <ul>
+                <li>Master of International Political Economy (2017–2019)</li>
+                <li>
+                  Master of Politics, Economics and Philosophy (2016–2017)
+                </li>
+                <li>
+                  Bachelor of Politics, Economics and Philosophy (2013–2016)
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section className={styles.section}>
             <h2>Certifications</h2>
             <ul>
               <li>AWS Certified Solutions Architect – Associate (2024)</li>
