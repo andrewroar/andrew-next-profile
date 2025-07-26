@@ -1,0 +1,27 @@
+name: Auto PR from dev to production
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create Pull Request to production
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: production
+          head: dev
+          title: "Sync dev → production"
+          body: |
+            Automated PR to merge latest changes from `dev` into `production`.
+          branch: auto/dev-to-production
+          delete-branch: true
+          draft: false
