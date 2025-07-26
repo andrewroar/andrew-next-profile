@@ -1,0 +1,20 @@
+# File: .github/workflows/pull-request.yml
+
+on:
+  push:
+    branches:
+    - dev
+
+jobs:
+  pull-request:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: pull-request
+      uses: diillson/auto-pull-request@v1.0.1
+      with:
+        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        destination_branch: "production"
+        pr_title: "Pulling ${{ github.ref }} into production" # Title of pull request
+        pr_body: |                                        # Full markdown support, requires pr_title to be set
+          :crown: *An automated PR*

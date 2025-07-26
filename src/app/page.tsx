@@ -30,7 +30,7 @@ export default function Home() {
           <section className={styles.section}>
             <h2>About</h2>
             <p>
-              I'm an AWS-certified developer with a strong background in
+              I&apos;m an AWS-certified developer with a strong background in
               cloud-native solutions, full-stack JavaScript, and infrastructure
               automation. I enjoy building scalable systems, mentoring
               developers, and optimising for performance and cost.
@@ -115,6 +115,22 @@ export default function Home() {
             <p>
               <strong>Databases:</strong> MySQL, DynamoDB, MongoDB
             </p>
+          </section>
+
+          <section className={styles.section}>
+            <h2>Education</h2>
+            <div className={styles.educationItem}>
+              <strong>University of York</strong>
+              <ul>
+                <li>Master of International Political Economy (2017–2019)</li>
+                <li>
+                  Master of Politics, Economics and Philosophy (2016–2017)
+                </li>
+                <li>
+                  Bachelor of Politics, Economics and Philosophy (2013–2016)
+                </li>
+              </ul>
+            </div>
           </section>
 
           <section className={styles.section}>
