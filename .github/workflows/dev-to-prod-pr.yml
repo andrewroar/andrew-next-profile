@@ -2,8 +2,7 @@ name: Auto PR from dev to production
 
 on:
   push:
-    branches:
-      - dev
+    branches: [ "dev", "production" ]
 
 jobs:
   create-pr:
