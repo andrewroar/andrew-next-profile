@@ -30,7 +30,7 @@ export default function Home() {
           <section className={styles.section}>
             <h2>About</h2>
             <p>
-              I'm an AWS-certified developer with a strong background in
+              I&apos;m an AWS-certified developer with a strong background in
               cloud-native solutions, full-stack JavaScript, and infrastructure
               automation. I enjoy building scalable systems, mentoring
               developers, and optimising for performance and cost.
