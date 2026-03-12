@@ -6,20 +6,14 @@ export default function Home() {
     <>
       <Head>
         <title>Andrew Wong | AWS Developer</title>
-        <meta
-          name="description"
-          content="Portfolio of Andrew Wong - Cloud Developer, Full Stack Engineer, and AWS Specialist"
-        />
+        <meta name="description" content="Portfolio of Andrew Wong - Cloud Developer, Full Stack Engineer, and AWS Specialist" />
       </Head>
       <main className={styles.container}>
         <div className={styles.card}>
           <header className={styles.header}>
             <h1 className={styles.name}>Andrew Wong</h1>
-            <p className={styles.tagline}>
-              AWS Developer · Full-Stack Engineer · Cloud Enthusiast
-            </p>
+            <p className={styles.tagline}>AWS Developer · Full-Stack Engineer · Cloud Enthusiast</p>
             <div className={styles.contactLinks}>
-              <a href="mailto:andrewshout@gmail.com">Email</a>
               <a href="https://github.com/andrewroar" target="_blank">
                 GitHub
               </a>
@@ -30,9 +24,7 @@ export default function Home() {
           <section className={styles.section}>
             <h2>About</h2>
             <p>
-              I&apos;m an AWS-certified developer with a strong background in
-              cloud-native solutions, full-stack JavaScript, and infrastructure
-              automation. I enjoy building scalable systems, mentoring
+              I&apos;m an AWS-certified developer with a strong background in cloud-native solutions, full-stack JavaScript, and infrastructure automation. I enjoy building scalable systems, mentoring
               developers, and optimising for performance and cost.
             </p>
           </section>
@@ -41,8 +33,7 @@ export default function Home() {
             <h2>Experience</h2>
             <div className={styles.job}>
               <div className={styles.jobTitle}>
-                <strong>AWS Developer</strong> · Centrica{" "}
-                <span>Dec 2024 – Jul 2025</span>
+                <strong>AWS Developer</strong> · Centrica <span>Dec 2024 – Jul 2025</span>
               </div>
               <ul>
                 <li>Integrated Salesforce lead updates via webhook APIs</li>
@@ -53,8 +44,7 @@ export default function Home() {
 
             <div className={styles.job}>
               <div className={styles.jobTitle}>
-                <strong>Full Stack Developer</strong> · AVEVA{" "}
-                <span>Feb 2022 – Dec 2024</span>
+                <strong>Full Stack Developer</strong> · AVEVA <span>Feb 2022 – Dec 2024</span>
               </div>
               <ul>
                 <li>Modernized AWS infrastructure (cut S3 costs by 40%)</li>
@@ -64,16 +54,12 @@ export default function Home() {
 
             <div className={styles.job}>
               <div className={styles.jobTitle}>
-                <strong>Web Developer</strong> · Ergo Creative{" "}
-                <span>Jul 2021 – Feb 2022</span>
+                <strong>Web Developer</strong> · Ergo Creative <span>Jul 2021 – Feb 2022</span>
               </div>
               <ul>
                 <li>Developed and maintained bespoke marketing websites</li>
                 <li>Integrated OAuth logins (Google, Facebook, Microsoft)</li>
-                <li>
-                  Implemented Stripe payments and managed full-stack updates
-                  using React, Vue, Laravel, and MySQL
-                </li>
+                <li>Implemented Stripe payments and managed full-stack updates using React, Vue, Laravel, and MySQL</li>
               </ul>
             </div>
           </section>
@@ -81,19 +67,14 @@ export default function Home() {
           <section className={styles.section}>
             <h2>Projects</h2>
             <p>
-              <strong>BuzzNet</strong> – A React Native app for casual business
-              networking.
+              <strong>BuzzNet</strong> – A React Native app for casual business networking.
             </p>
             <ul>
               <li>
-                <a href="https://play.google.com/apps/testing/com.andrewroar.BeeNet">
-                  Android Beta
-                </a>
+                <a href="https://play.google.com/apps/testing/com.andrewroar.BeeNet">Android Beta</a>
               </li>
               <li>
-                <a href="https://testflight.apple.com/join/VjZGZZnS">
-                  iOS TestFlight
-                </a>
+                <a href="https://testflight.apple.com/join/VjZGZZnS">iOS TestFlight</a>
               </li>
             </ul>
           </section>
@@ -123,12 +104,8 @@ export default function Home() {
               <strong>University of York</strong>
               <ul>
                 <li>Master of International Political Economy (2017–2019)</li>
-                <li>
-                  Master of Politics, Economics and Philosophy (2016–2017)
-                </li>
-                <li>
-                  Bachelor of Politics, Economics and Philosophy (2013–2016)
-                </li>
+                <li>Master of Politics, Economics and Philosophy (2016–2017)</li>
+                <li>Bachelor of Politics, Economics and Philosophy (2013–2016)</li>
               </ul>
             </div>
           </section>
